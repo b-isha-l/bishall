@@ -2,7 +2,7 @@
 
     if(isset($_POST['Submit'])){
 
-        $to = "isha.stupid@gmail.com";
+        $to = "admin.bishall.com.np";
         $from = preg_replace("([\r\n])", "", $_POST['email']);
         $subject = preg_replace("([\r\n])", "", $_POST['subject']);
         $body = $_POST['body'];
